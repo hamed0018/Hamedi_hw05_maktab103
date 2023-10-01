@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Domine&family=Lilita+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #39ffac,
+    #6cd287,
+    #75a66e,
+    #6d7e5e,
+    #585955
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  width: 500px;
+  height: 500px;
+  background: rgba(96, 92, 92, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.about .profile{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    justify-content: flex-start;
+}
+.about .profile #profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 10%;
+    border: 1px white solid;
+}
+.about .description{
+    width: 60%;
+    margin-left: 10%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about .description .title{
+    margin-top: 2%;
+    color: #585955;
+    font-family: 'Domine', serif;
+    font-size: 1.5rem;
+}
+.about .description .name {
+    margin-top: 2%;
+    color: #6cd287;
+    font-size: 1.4rem;
+    font-family: 'Lilita One', cursive;
+}
+.about .description .text{
+    margin-top: 2%;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Caveat', cursive;
+}
+.about .social{
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    height: 200px;
+    align-items: center;
+    margin-left: 10%;
+}
+.about .social .icons{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .social .icons img{
+    width: 50%;
+}
